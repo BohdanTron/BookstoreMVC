@@ -1,0 +1,57 @@
+﻿@using BookStore.DAL.Entities
+@model BookStore.DAL.Entities.Sage
+
+@{
+    ViewData["Title"] = "Edit sage";
+}
+
+<a asp-action="GetSages">Back</a>
+
+<div class="text-center">
+    <h1 class="display-4">Edit sage</h1>
+</div>
+
+<form method="post" asp-action="EditSage" enctype="multipart/form-data">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="Name" value="@Model.Name" placeholder="Enter name" required />
+    </div>
+    <div class="form-group">
+        <label>Age</label>
+        <input type="number" class="form-control" name="Age" value="@Model.Age" placeholder="Enter age" required />
+    </div>
+    <div class="form-group">
+        <label>City</label>
+        <input type="text" class="form-control" name="City" value="@Model.City" placeholder="Enter city" required />
+    </div>
+
+    <div class="form-group">
+        @if (Model.Photo != null)
+        {
+            <img style='width:80px; height:60px;' src="data:image/jpeg;base64,@(Convert.ToBase64String(Model.Photo))" />
+        }
+        <input type="file" name="photo" class="form-control-file" />
+    </div>
+    
+
+    <div class="form-group">
+        <label>Books</label><br />
+        @{
+            var currentBooks = Model.BookSages.Select(x => x.Book);
+
+            foreach (var book in ViewBag.AllBooks)
+            {
+                <div class="form-check-inline">
+                    <input type="checkbox" class="form-check-input" name="selectedBookIds" value="@book.Id"
+                           @(currentBooks.Contains((Book)book) ? "checked=\"checked\"" : "") />@book.Name <br />
+                    </div>
+                }
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

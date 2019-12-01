@@ -1,0 +1,10 @@
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\BookStore.DAL.deps.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\BookStore.DAL.runtimeconfig.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\BookStore.DAL.runtimeconfig.dev.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\BookStore.DAL.dll
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\BookStore.DAL.pdb
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\BookStore.DAL.dll
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\BookStore.DAL.pdb
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\BookStore.DAL.csprojAssemblyReference.cache

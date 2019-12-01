@@ -1,0 +1,9 @@
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\DAL.deps.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\DAL.dll
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfoInputs.cache
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfo.cs
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.dev.json
+C:\Users\tronb\Desktop\BookStore\DAL\bin\Debug\netcoreapp3.0\DAL.pdb
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\DAL.dll
+C:\Users\tronb\Desktop\BookStore\DAL\obj\Debug\netcoreapp3.0\DAL.pdb

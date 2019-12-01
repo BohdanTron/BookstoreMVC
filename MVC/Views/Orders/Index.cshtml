@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BookStore.DAL.Entities.Order>
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<a asp-action="Index" asp-controller="Admin">Back</a>
+
+<div class="text-center">
+    <h1 class="display-4">All orders</h1>
+</div>
+
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th class="text-center" style="width:25%" scope="col">Name of the book</th>
+            <th class="text-center" style="width:30%" scope="col">Email of the user</th>
+            <th class="text-center" style="width:5%" scope="col">Quantity</th>
+            <th class="text-center" style="width:30%" scope="col">Date</th>
+        </tr>
+    </thead>
+
+    @foreach (var order in Model)
+    {
+        <tr>
+            <td class="text-center">@order.Book.Name</td>
+            <td class="text-center">@order.User.Email</td>
+            <td class="text-center">@order.Quantity</td>
+            <td class="text-center">@order.Date.ToShortDateString()</td>
+        </tr>
+    }
+</table>
